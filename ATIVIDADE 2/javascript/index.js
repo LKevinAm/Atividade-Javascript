@@ -1,4 +1,4 @@
-function CalcularOperacoes() {
+document.getElementById("btnCalcular").addEventListener('click',function CalcularOperacoes() {
     let numero1 = document.getElementById("numero1").value
     let numero2 = document.getElementById("numero2").value
     
@@ -14,4 +14,4 @@ function CalcularOperacoes() {
     document.getElementById("resultado subtracao").innerText = `A subtração entre os dois numero é ${subtracao}`
     document.getElementById("resultado multiplicacao").innerText = `A multiplicação entre os dois numero é ${multiplicacao}`
     document.getElementById("resultado divisao").innerText = `A divisão entre os dois numero é ${divisao}`
-}
+})
